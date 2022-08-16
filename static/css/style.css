@@ -1,0 +1,17 @@
+.posts {    
+   
+    display:flex;
+  }
+  
+  .post {    
+    min-width: 200px;
+    min-height: 350px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    
+  }
+  
+  .post > img {
+    width: 350px;
+  }

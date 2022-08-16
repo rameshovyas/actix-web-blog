@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Personal Blog</title>
+    <link rel="stylesheet" href="static/css/style.css" type="text/css">
+  </head>
+  <body>
+    <h1>My Personal Blog</h1>
+    <section class="posts">
+      {{#each posts}}
+        <article class="post">
+          <img src="{{this.image_path}}" />
+          <h3>{{this.title}}</h3>          
+          <h4>By: {{this.author}}</h4>
+        </article>
+      {{/each}}
+    </section>
+  </body>
+</html>
